@@ -1,0 +1,13 @@
+.env.local
+.env.*.local
+
+/vendor/
+/var/
+
+.idea/
+.vscode/
+
+/phpunit.xml
+/.phpunit.cache/
+phpstan.neon
+/.php-cs-fixer.cache

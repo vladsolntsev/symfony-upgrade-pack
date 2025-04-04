@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Symfony Upgrade Pack",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

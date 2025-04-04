@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: deploy/php/Dockerfile
+    container_name: symfony-upgrade-app
+    working_dir: /var/www
+    volumes:
+      - ../:/var/www
+    ports:
+      - "8000:8000"
