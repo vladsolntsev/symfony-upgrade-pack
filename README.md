@@ -1,6 +1,6 @@
-# Symfony Project
+# Symfony Upgrade Pack
 
-This is a Symfony template with a Docker environment and quality assurance/testing tools.
+This app is a Symfony template with a Docker environment & quality assurance/testing tools.
 
 It uses the following tools:
 - PHP CS Fixer
@@ -9,17 +9,12 @@ It uses the following tools:
 - Rector
 - Bruno API
 
-## Prerequisites
-
-- Docker and Docker Compose
-- PHP 8.3
-
 ## Installation
 
 Clone the repository and install dependencies:
 
 ```bash
-git clone ...
+git clone git@github.com:vladsolntsev/symfony-upgrade-pack.git
 cd symfony-upgrade-pack
 make build
 ```
